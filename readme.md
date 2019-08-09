@@ -78,5 +78,5 @@ Made with &#9829; from the [@tioffs][tioffs-url]
 [telegram-image]: https://img.shields.io/badge/Telegram-Join%20Chat-blue.svg?style=flat
 
 [packagist-url]: https://packagist.org/packages/tioffs/fentities
-[packagist-license]: https://img.shields.io/packagist/l/tioffs/fentities.svg?style=flat
-[packagist-downloads]: https://img.shields.io/packagist/dm/tioffs/fentities.svg?style=flat
+[packagist-license]: https://img.shields.io/github/license/tioffs/fentities
+[packagist-downloads]: https://img.shields.io/packagist/dm/tioffs/fentities
