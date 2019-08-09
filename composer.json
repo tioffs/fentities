@@ -17,6 +17,5 @@
     "support": {
       "email": "me@timlab.ru"
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "minimum-stability": "dev"
 }
