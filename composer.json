@@ -1,0 +1,22 @@
+{
+    "name": "tioffs/fentities",
+    "description": "Telegram core api formate message html",
+    "keywords": ["telegram", "formate", "html"],
+    "type": "library",
+    "homepage": "https://github.com/tioffs/fentities",
+    "license": "MIT",
+    "author": "Tioffs <me@timlab.ru> (https://timlab.ru)",
+    "require": {
+      "php": ">=7.3"
+    },
+    "autoload": {
+      "psr-0": {
+        "Formats\\": "src/"
+      }
+    },
+    "support": {
+      "email": "me@timlab.ru"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
