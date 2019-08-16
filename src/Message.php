@@ -15,18 +15,18 @@ namespace Formats;
 
 class Message
 {
- 
+
     /**
      * function formate message array
      *
      * @param array $message messages[0]['message','media','id'...]
      * @return array
      */
-    public static function html(array $message): array
+    public static function html(array $message): string
     {
-        return self::message($message['message'], $message['entities'] ?? []) ?? [];
+        return self::message($message['message'], $message['entities'] ?? []);
     }
- 
+
 
     /**
      * message to html
@@ -110,7 +110,7 @@ class Message
      * @param string $text
      * @return void
      */
-    private static function strlen(string $text):int
+    private static function strlen(string $text): int
     {
         $length = 0;
         $textlength = strlen($text);
@@ -132,7 +132,7 @@ class Message
      * @param int $length
      * @return string
      */
-    private static function substr(string $text, int $offset, int $length = null):string
+    private static function substr(string $text, int $offset, int $length = null): string
     {
         $mb_text_length = self::strlen($text);
         if ($offset < 0) {
