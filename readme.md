@@ -69,7 +69,7 @@ is especially suited to web development.</b>
 
 ----
 
-Made with &#9829; from the [@tioffs][tioffs-url]
+Made with &#9829; from the @tioffs
 
 [tioffs-url]: https://timlab.ru/
 [license-url]: https://github.com/tioffs/fentities/blob/master/LICENSE
